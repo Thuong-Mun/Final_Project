@@ -1,0 +1,26 @@
+h1{
+    color: violet;
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+header{
+    background-color: #62475e;
+}
+main{
+    background-color: rgb(203, 175, 200);
+    font-size: 18px;
+}
+footer{
+    background-color: rgb(236, 210, 236);
+}
+ul{
+    color: aliceblue;
+}
+p{
+    line-height: 2;
+    font-size: 30px;
+}
+li{
+    font-size: 20px;
+}
