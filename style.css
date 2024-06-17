@@ -1,0 +1,67 @@
+body {
+    background-color: #dedede;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  .color-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .color-container div {
+    display: inline-block;
+    width: 24%;
+    margin: 5px;
+    padding: 2px;
+  }
+  
+  .color-container div img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  /* Chế độ xem máy tính bảng */
+  @media (min-width: 772px) {
+    .color-container div {
+      width: 45vw;
+    }
+  
+    .color-container div img {
+      max-height: 30vh;
+    }
+  }
+  
+  /* Chế độ xem màn hình lớn */
+  @media (min-width: 998px) {
+    .color-container div {
+      width: 30vw;
+    }
+  }
+  
